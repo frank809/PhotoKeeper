@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         filesKeeper files = new filesKeeper();
-        files.runTidy("test\\source","test\\target");
+        files.runTidy("src\\test\\resources","target\\out");
 
 //
 //        Path path = Paths.get("d:\\temp\\demo\\test.jpg");

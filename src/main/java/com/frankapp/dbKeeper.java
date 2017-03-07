@@ -18,7 +18,7 @@ public class dbKeeper {
         try
         {
             // create a database connection
-            this.connection = DriverManager.getConnection("jdbc:sqlite:photos.db");
+            this.connection = DriverManager.getConnection("jdbc:sqlite:target\\photos.db");
             this.statement = this.connection.createStatement();
             this.statement.setQueryTimeout(30);  // set timeout to 30 sec.
 
