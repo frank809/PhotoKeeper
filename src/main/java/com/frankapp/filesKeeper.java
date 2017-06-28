@@ -152,7 +152,7 @@ public class filesKeeper {
         Calendar cal = Calendar.getInstance();
         cal.setTime(fileDate);
 
-        Path desPath = Paths.get(desBaseDir+"\\"+cal.get(Calendar.YEAR)+"\\"+(cal.get(Calendar.MONTH)+1)+"\\"+cal.get(Calendar.DATE)+"\\"+desFilename);
+        Path desPath = Paths.get(desBaseDir+"\\"+cal.get(Calendar.YEAR)+"\\"+(cal.get(Calendar.MONTH)+1)+"\\"+desFilename);
         System.out.println("DestPath:"+desPath.toString());
 
         try {
